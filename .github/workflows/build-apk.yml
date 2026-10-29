@@ -26,7 +26,7 @@ jobs:
       - name: Estrai progetto
         run: |
           mkdir progetto
-          unzip -q EtichettaFacile_progetto_corretto.zip -d progetto
+          unzip -q EtichettaFacile_progetto_corretto_v2.zip -d progetto
 
       - name: Compila APK
         run: gradle -p progetto assembleDebug
